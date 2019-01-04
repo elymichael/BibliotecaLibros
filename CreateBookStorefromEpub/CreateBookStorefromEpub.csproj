@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DBBA0F15-DD1D-440A-B63D-36F2C8B7715D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CreateBookStorefromEpub</RootNamespace>
+    <AssemblyName>CreateBookStorefromEpub</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlAgilityPack, Version=1.8.11.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.8.11\lib\Net45\HtmlAgilityPack.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VersOne.Epub">
+      <HintPath>..\..\..\..\..\Downloads\EpubReader-master\EpubReader-master\Source\VersOne.Epub\bin\Debug\net45\VersOne.Epub.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="epubs\Arthur+Conan+Doyle+-+The+Adventures+of+Sherlock+Holmes.epub" />
+    <None Include="epubs\Fyodor+Mikhailovich+Dostoyevsky+-+The+Brothers+Karamazov.epub" />
+    <None Include="epubs\Homer+-+The+Iliad+of+Homer.epub" />
+    <None Include="epubs\J.M.+Barrie+-+Peter+Pan+%28Peter+and+Wendy%29.epub" />
+    <None Include="epubs\Jane+Austen+-+Emma.epub" />
+    <None Include="epubs\Jules+Verne+-+The+Mysterious+Island.epub" />
+    <None Include="epubs\Louisa+May+Alcott+-+Little+Women.epub" />
+    <None Include="epubs\Margaret+Cavendish+-+The+Blazing+World.epub" />
+    <None Include="epubs\Mark+Twain+-+The+Adventures+of+Tom+Sawyer.epub" />
+    <None Include="epubs\Mark+Twain+-+The+Prince+and+the+Pauper.epub" />
+    <None Include="epubs\Oscar+Wilde+-+The+Picture+of+Dorian+Gray.epub" />
+    <None Include="epubs\Robert+Louis+Stevenson+-+Treasure+Island.epub" />
+    <None Include="epubs\Robert+Stawell+Ball+-+Great+Astronomers+Nicolaus+Copernicus.epub" />
+    <None Include="epubs\William+Shakespeare+-+Much+Ado+About+Nothing.epub" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
