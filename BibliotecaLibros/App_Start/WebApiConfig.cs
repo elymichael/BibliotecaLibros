@@ -19,6 +19,12 @@ namespace BibliotecaLibros
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            config.Routes.MapHttpRoute(
+               name: "TwoApi",
+               routeTemplate: "api/{controller}/{id}/{type}",
+               defaults: new { id = RouteParameter.Optional }
+           );
         }
     }
 }
