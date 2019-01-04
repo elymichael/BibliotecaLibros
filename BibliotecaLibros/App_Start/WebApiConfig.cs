@@ -21,8 +21,14 @@ namespace BibliotecaLibros
             );
 
             config.Routes.MapHttpRoute(
-               name: "TwoApi",
+               name: "BooksApi",
                routeTemplate: "api/{controller}/{id}/{type}",
+               defaults: new { id = RouteParameter.Optional }
+           );
+
+            config.Routes.MapHttpRoute(
+               name: "PagesApi",
+               routeTemplate: "api/{controller}/{id}/{page}/{number}/{type}",
                defaults: new { id = RouteParameter.Optional }
            );
         }
