@@ -53,7 +53,7 @@ namespace CreateBookStorefromEpub
                             Directory.CreateDirectory(targetDirectory);
                         }
                         string filename = string.Format(@"{0}.xml", name);
-                        string subfolder = string.Format(@"{0}{1}\", targetDirectory ,name);
+                        string subfolder = string.Format(@"{0}\{1}\", targetDirectory ,name);
 
                         using (StreamWriter sw = File.CreateText(targetDirectory + filename))
                         {
