@@ -55,7 +55,7 @@ namespace CreateBookStorefromEpub
                         string filename = string.Format(@"{0}.xml", name);
                         string subfolder = string.Format(@"{0}\{1}\", targetDirectory ,name);
 
-                        using (StreamWriter sw = File.CreateText(targetDirectory + filename))
+                        using (StreamWriter sw = File.CreateText(string.Format(@"{0}\{1}", targetDirectory, filename)))
                         {
                             sw.WriteLine("<book>");
                             sw.WriteLine("<title>" + books[i].Title + "</title>");
