@@ -6,6 +6,5 @@ C:\Users\Michael Nuñez\Documents\Visual Studio 2015\Projects\BibliotecaLibros\C
 C:\Users\Michael Nuñez\Documents\Visual Studio 2015\Projects\BibliotecaLibros\CreateBookStorefromEpub\bin\Debug\HtmlAgilityPack.pdb
 C:\Users\Michael Nuñez\Documents\Visual Studio 2015\Projects\BibliotecaLibros\CreateBookStorefromEpub\bin\Debug\HtmlAgilityPack.xml
 C:\Users\Michael Nuñez\Documents\Visual Studio 2015\Projects\BibliotecaLibros\CreateBookStorefromEpub\bin\Debug\VersOne.Epub.pdb
-C:\Users\Michael Nuñez\Documents\Visual Studio 2015\Projects\BibliotecaLibros\CreateBookStorefromEpub\obj\Debug\CreateBookStorefromEpub.csprojResolveAssemblyReference.cache
 C:\Users\Michael Nuñez\Documents\Visual Studio 2015\Projects\BibliotecaLibros\CreateBookStorefromEpub\obj\Debug\CreateBookStorefromEpub.exe
 C:\Users\Michael Nuñez\Documents\Visual Studio 2015\Projects\BibliotecaLibros\CreateBookStorefromEpub\obj\Debug\CreateBookStorefromEpub.pdb
