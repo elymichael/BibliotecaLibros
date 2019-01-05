@@ -57,18 +57,6 @@
     <None Include="App.config" />
     <None Include="epubs\Arthur+Conan+Doyle+-+The+Adventures+of+Sherlock+Holmes.epub" />
     <None Include="epubs\Fyodor+Mikhailovich+Dostoyevsky+-+The+Brothers+Karamazov.epub" />
-    <None Include="epubs\Homer+-+The+Iliad+of+Homer.epub" />
-    <None Include="epubs\J.M.+Barrie+-+Peter+Pan+%28Peter+and+Wendy%29.epub" />
-    <None Include="epubs\Jane+Austen+-+Emma.epub" />
-    <None Include="epubs\Jules+Verne+-+The+Mysterious+Island.epub" />
-    <None Include="epubs\Louisa+May+Alcott+-+Little+Women.epub" />
-    <None Include="epubs\Margaret+Cavendish+-+The+Blazing+World.epub" />
-    <None Include="epubs\Mark+Twain+-+The+Adventures+of+Tom+Sawyer.epub" />
-    <None Include="epubs\Mark+Twain+-+The+Prince+and+the+Pauper.epub" />
-    <None Include="epubs\Oscar+Wilde+-+The+Picture+of+Dorian+Gray.epub" />
-    <None Include="epubs\Robert+Louis+Stevenson+-+Treasure+Island.epub" />
-    <None Include="epubs\Robert+Stawell+Ball+-+Great+Astronomers+Nicolaus+Copernicus.epub" />
-    <None Include="epubs\William+Shakespeare+-+Much+Ado+About+Nothing.epub" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
