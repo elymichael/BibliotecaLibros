@@ -33,6 +33,7 @@ http://localhost:6205/api/book/1/pages/11/html|txt
 
 **html version** 
 http://localhost:6205/api/book/1/pages/11/html 
+
 **txt version** 
 http://localhost:6205/api/book/1/pages/11/txt
 
@@ -41,7 +42,7 @@ Developed using Visual Studio 2015, framework 4.5.2 under windows 10 pro.
 .Net Web Api Source: C# This Web API 2 library provides the book information required for company X. The project has configured the publish information pointed to the following directory: **C:\BibliotecaLibros\** and install under valid web server to support .net framework.
  
 * **Main Class:** BookControler.cs located in the folder Controller. 
-* **Model Class:** Book.cs 
+* **Model Class:** Book.cs.
 * **File Database:** App_Data/books/ 
 ## Project: CreateBookStorefromEpub
 .Net Console Application C# Description: This library take some **epub files** and create the library genareting the page files in custom **html** and **txt**. 
