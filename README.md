@@ -6,22 +6,22 @@ Proyecto de prueba solicitado por una empresa.
 ## Original Requirement: 
 
 > "Company X acaba de contratarlo a ústed para crear su biblioteca en línea. La misma le instruyó construir un REST API el cuál permita sus clientes consumir el listado de libros disponibles, así como también, leer dichos libros página por página en el formato deseado. Para esta primera iteración los libros estarán disponibles (página por página) en **texto plano** y **HTML**. En próximas iteraciones se agregará soporte para más formatos de lectura, y además, se agregará soporte para interconectarse con otros servicios proveedores de libros en línea." 
-```
+```xml
 <ArrayOfBook xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/BibliotecaLibros.Models">
-<Book>
-<Author>Arthur Conan Doyle</Author>
-<CreationDate>2019-01-04T14:10:39.6958156-04:00</CreationDate>
-<ID>1</ID>
-<Pages>268</Pages>
-<Title>The Adventures of Sherlock Holmes</Title>
-</Book>
-<Book>
-<Author>Fyodor Mikhailovich Dostoyevsky</Author>
-<CreationDate>2019-01-04T14:10:39.731795-04:00</CreationDate>
-<ID>2</ID>
-<Pages>608</Pages>
-<Title>The Brothers Karamazov</Title>
-</Book>
+ <Book>
+  <Author>Arthur Conan Doyle</Author>
+  <CreationDate>2019-01-04T14:10:39.6958156-04:00</CreationDate>
+  <ID>1</ID>
+  <Pages>268</Pages>
+  <Title>The Adventures of Sherlock Holmes</Title>
+ </Book>
+ <Book>
+  <Author>Fyodor Mikhailovich Dostoyevsky</Author>
+  <CreationDate>2019-01-04T14:10:39.731795-04:00</CreationDate>
+  <ID>2</ID>
+  <Pages>608</Pages>
+  <Title>The Brothers Karamazov</Title>
+ </Book>
 </ArrayOfBook>
 ```
 * ### Get book list (example) 
